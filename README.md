@@ -5,13 +5,13 @@
 		<img src="public/assets/images/logos/logo.png" alt="Logo" height="200" width="200" />
 	</picture>
 </div>
-
+Power by : @saiful-akbar https://github.com/saiful-akbar
 # Saiful & Cindy's wedding
 
 ## Instalation
 
 ```bash
-git clone https://github.com/saiful-akbar/my-wedding.git
+git clone https://github.com/fahri-source/my-wedding.git
 
 ```
 
