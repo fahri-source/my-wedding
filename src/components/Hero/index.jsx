@@ -98,7 +98,7 @@ const Hero = () => {
             objectFit: "cover",
             objectPosition: "bottom center",
             width: "100%",
-            height: "100vh",
+            height: "100%",
           }}
         />
 

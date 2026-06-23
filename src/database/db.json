@@ -1,51 +1,51 @@
 {
   "application": {
-    "name": "The wedding of Arif & Watti",
-    "description": "The wedding of Arif & Watti, Sabtu , 3 Oktober 2026",
+    "name": "The wedding of Arip & Wati",
+    "description": "The wedding of Arip & Wati, Minggu 08 November 2026",
     "version": "1.0.0"
   },
   "wedding": {
     "akad": {
-      "tanggal": "14 Juni 2026",
-      "jam": "08.00 WIB - Selesai",
+      "tanggal": "08 November 2026",
+      "jam": "Acara akad telah selesai",
       "lokasi": "Kediaman mempelai wanita",
-      "alamat": "Jl. H. Nurleman RT. 002 RW. 003, Kel. Benda Baru, Kec. Pamulang, Tangerang Selatan",
+      "alamat": "Desa.Leuwigede Blok karangtengah Rt 07 Rw 04 Kec.Widasari Kab.Indaramayu",
       "gmaps": {
-        "link": "https://maps.app.goo.gl/1kM9KC9m7d477zxD9",
-        "iframeSrc": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d991.3727501079445!2d106.71945762812459!3d-6.330370382891928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMTknNDkuOSJTIDEwNsKwNDMnMTEuOSJF!5e0!3m2!1sid!2sid!4v1681882927364!5m2!1sid!2sid"
+        "link": "https://maps.app.goo.gl/4awxc1WBBeXRVB147",
+        "iframeSrc": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3964.727092478698!2d108.28361887499211!3d-6.429095693561997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMjUnNDQuNyJTIDEwOMKwMTcnMTAuMyJF!5e0!3m2!1sid!2sid!4v1782232226747!5m2!1sid!2sid"
       }
     },
     "resepsi": {
-      "tanggal": "Sabtu, 3 Oktober 2026",
+      "tanggal": "Minggu 08 November 2026",
       "jam": "09.00 WIB - Selesai",
       "lokasi": "Kediaman mempelai wanita",
-      "alamat": "Jl. H. Nurleman RT. 002 RW. 003, Kel. Benda Baru, Kec. Pamulang, Tangerang Selatan",
+      "alamat": "Desa.Leuwigede Blok karangtengah Rt 07 Rw 04 Kec.Widasari Kab.Indaramayu",
       "gmaps": {
-        "link": "https://maps.app.goo.gl/1kM9KC9m7d477zxD9",
-        "iframeSrc": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d991.3727501079445!2d106.71945762812459!3d-6.330370382891928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMTknNDkuOSJTIDEwNsKwNDMnMTEuOSJF!5e0!3m2!1sid!2sid!4v1681882927364!5m2!1sid!2sid"
+        "link": "https://maps.app.goo.gl/4awxc1WBBeXRVB147",
+        "iframeSrc": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3964.727092478698!2d108.28361887499211!3d-6.429095693561997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMjUnNDQuNyJTIDEwOMKwMTcnMTAuMyJF!5e0!3m2!1sid!2sid!4v1782232226747!5m2!1sid!2sid"
       }
     },
     "mempelai": {
       "pria": {
         "namaDepan": "Putukhal",
-        "namaBelakang": "Arifin",
-        "namaPanggilan": "Arif",
+        "namaBelakang": "Aripin",
+        "namaPanggilan": "Arip",
         "orangTua": {
           "keterangan": "Putra ketiga dari keluarga",
-          "pria": "H. Murdih bin Mahir",
-          "wanita": "Mutiyah"
+          "pria": "Darsim",
+          "wanita": "Napsiyah"
         },
         "foto": "/assets/images/mempelai/pria.webp",
         "bg": "rgb(229, 229, 203)"
       },
       "wanita": {
-        "namaDepan": "Nur",
-        "namaBelakang": "Watti",
-        "namaPanggilan": "Watti",
+        "namaDepan": "Karwati",
+        "namaBelakang": ".",
+        "namaPanggilan": "Wati",
         "orangTua": {
           "keterangan": "Putri pertama dari keluarga",
-          "pria": "Cecep Supriyadi",
-          "wanita": "Yanih Nurliani"
+          "pria": "Sukriyah",
+          "wanita": "Suhesti"
         },
         "foto": "/assets/images/mempelai/wanita.webp",
         "bg": "rgb(213, 206, 163)"
