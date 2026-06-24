@@ -28,10 +28,27 @@ const Backsound = () => {
   };
 
   /**
-   * Auto play musik
+   * Auto play musik dengan penanganan blokir browser (Autoplay Policy)
    */
   React.useEffect(() => {
-    const playPromise = audioRef.current.play();
+    const handleFirstInteraction = () => {
+      if (audioRef.current) {
+        audioRef.current.play()
+          .then(() => {
+            setPlay(true);
+            removeListeners();
+          })
+          .catch((err) => console.log("Interaksi gagal memicu audio:", err));
+      }
+    };
+
+    const removeListeners = () => {
+      window.removeEventListener("click", handleFirstInteraction);
+      window.removeEventListener("touchstart", handleFirstInteraction);
+    };
+
+    // Jalankan fungsi putar bawaan saat pertama kali dimuat
+    const playPromise = audioRef.current?.play();
 
     if (playPromise !== undefined) {
       playPromise
@@ -39,9 +56,17 @@ const Backsound = () => {
           setPlay(true);
         })
         .catch(() => {
+          // Jika terblokir browser, pasang listener interaksi pertama tamu
           setPlay(false);
+          window.addEventListener("click", handleFirstInteraction);
+          window.addEventListener("touchstart", handleFirstInteraction);
         });
     }
+
+    // Bersihkan listener saat komponen dilepas agar tidak terjadi kebocoran memori
+    return () => {
+      removeListeners();
+    };
   }, [audioRef]);
 
   // observe when browser is resizing
@@ -80,7 +105,6 @@ const Backsound = () => {
     >
       <audio
         ref={audioRef}
-        component="audio"
         preload="true"
         loop
         autoPlay={true}

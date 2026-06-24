@@ -30,6 +30,7 @@
         "namaDepan": "Putukhal",
         "namaBelakang": "Aripin",
         "namaPanggilan": "Arip",
+        "wa":"628977445586",
         "orangTua": {
           "keterangan": "Putra ketiga dari keluarga",
           "pria": "Darsim",
@@ -42,6 +43,8 @@
         "namaDepan": "Karwati",
         "namaBelakang": ".",
         "namaPanggilan": "Wati",
+        "wa":"6281287927192",
+
         "orangTua": {
           "keterangan": "Putri pertama dari keluarga",
           "pria": "Sukriyah",
@@ -64,5 +67,22 @@
     "/assets/images/galeri/galeri-06.webp",
     "/assets/images/galeri/galeri-07.webp",
     "/assets/images/galeri/galeri-08.webp"
-  ]
+  ],
+  "gift": {
+    "keterangan": "Doa restu Anda adalah karunia terindah. Bagi yang ingin mengirimkan tanda kasih, dapat melalui rekening di bawah ini:",
+    "rekening": [
+      {
+        "provider": "DANA",
+        "nomor": "12345678",
+        "nama": "KARWATI",
+        "logo": "/assets/gift/dana-e-wallet.png"
+      },
+      {
+        "provider": "BCA",
+        "nomor": "08127859087",
+        "nama": "PUTHUKAL ARIFIN",
+        "logo": "/assets/gift/logo_bca-png-768x239.png"
+      }
+    ]
+  }
 }

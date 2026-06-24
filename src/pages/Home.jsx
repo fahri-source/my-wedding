@@ -6,6 +6,7 @@ import Lokasi from "@/components/Lokasi";
 import Mempelai from "@/components/Mempelai";
 import Tanggal from "@/components/Tanggal";
 import Words from "@/components/Words";
+import Gift from "@/components/Gift/Gift";
 
 /**
  * Home page
@@ -37,6 +38,10 @@ const Home = () => {
 
       <section id="galeri">
         <Galeri />
+      </section>
+      
+      <section id="gif" className="py-12 bg-transparent">
+        <Gift />
       </section>
 
       <footer id="footer">
