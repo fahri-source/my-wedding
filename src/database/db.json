@@ -32,7 +32,7 @@
         "namaPanggilan": "Arip",
         "wa":"628977445586",
         "orangTua": {
-          "keterangan": "Putra ketiga dari keluarga",
+          "keterangan": "Putra kelima dari keluarga",
           "pria": "Darsim",
           "wanita": "Napsiyah"
         },
@@ -46,7 +46,7 @@
         "wa":"6281287927192",
 
         "orangTua": {
-          "keterangan": "Putri pertama dari keluarga",
+          "keterangan": "Putri ketiga dari keluarga",
           "pria": "Sukriyah",
           "wanita": "Suhesti"
         },
@@ -73,13 +73,13 @@
     "rekening": [
       {
         "provider": "DANA",
-        "nomor": "12345678",
-        "nama": "KARWATI",
+        "nomor": "08977445586",
+        "nama": "PUTHUKAL ARIFIN",
         "logo": "/assets/gift/dana-e-wallet.png"
       },
       {
         "provider": "BCA",
-        "nomor": "08127859087",
+        "nomor": "3030696921",
         "nama": "PUTHUKAL ARIFIN",
         "logo": "/assets/gift/logo_bca-png-768x239.png"
       }
