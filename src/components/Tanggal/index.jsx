@@ -47,13 +47,13 @@ const Tanggal = () => {
           exit="exit"
           viewport={{ once: true }}
         >
-          <Typography variant="h6" component="div" sx={{ textAlign: "center" }}>
+          {/* <Typography variant="h6" component="div" sx={{ textAlign: "center" }}>
             {textHeader.split(" ").map((text, key) => (
               <TextMask key={key} variants={textVariants}>
                 {text}
               </TextMask>
             ))}
-          </Typography>
+          </Typography> */}
 
           <Typography variant="h2" sx={{ textAlign: "center", my: 3 }}>
             {resepsi.tanggal.split(" ").map((text, key) => (
@@ -66,7 +66,7 @@ const Tanggal = () => {
           <Divider />
         </Grid>
 
-        <Grid item md={6} xs={12}>
+        {/* <Grid item md={6} xs={12}>
           <CardTanggal
             title="Akad Nikah"
             tanggal={akad.tanggal}
@@ -75,7 +75,7 @@ const Tanggal = () => {
             alamat={akad.alamat}
             link={akad.gmaps.link}
           />
-        </Grid>
+        </Grid> */}
 
         <Grid item md={6} xs={12}>
           <CardTanggal
