@@ -26,7 +26,7 @@ export default defineConfig({
         base: "/my-wedding/",
         name: "The wedding of Arif & Watti",
         short_name: "Arif & Watti",
-        description: "Sabtu, 3 Oktober 2026",
+        description: "Minggu, 08 November 2026",
         theme_color: "rgb(229, 229, 203)",
         background_color: "rgb(60, 42, 33)",
         orientation: "portrait",
