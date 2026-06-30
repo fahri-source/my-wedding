@@ -24,8 +24,8 @@ export default defineConfig({
       },
       manifest: {
         base: "/my-wedding/",
-        name: "The wedding of Arif & Watti",
-        short_name: "Arif & Watti",
+        name: "The wedding of Arip & Wati",
+        short_name: "Arip & Wati",
         description: "Minggu, 08 November 2026",
         theme_color: "rgb(229, 229, 203)",
         background_color: "rgb(60, 42, 33)",
